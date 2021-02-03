@@ -45,6 +45,9 @@ ext {
   navigationVersion               = '2.3.1'
   gsonVersion                     = '2.8.6'
   desugarJdkVersion               = '1.1.1'
+  hiltVersion                     = '2.28-alpha'
+  viewModelVersion                = '2.2.0'
+  liveDataVersion                 = '2.2.0'
 
   // RxJava
   rxJavaVersion                   = '2.2.8'
@@ -73,7 +76,6 @@ ext {
     recyclerView:               "androidx.recyclerview:recyclerview:${recyclerViewVersion}",
     swipeLayout:                "com.daimajia.swipelayout:library:${swipeLayoutVersion}@aar",
     swipeRefreshLayout:         "androidx.swiperefreshlayout:swiperefreshlayout:${swipeRefreshLayoutVersion}",
-
 
     // rx
     rxJava:                     "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
@@ -105,6 +107,8 @@ ext {
     coreKtx:                    "androidx.core:core-ktx:${coreKtxVersion}",
     annotation:                 "androidx.annotation:annotation:${annotationVersion}",
     gson:                       "com.google.code.gson:gson:${gsonVersion}",
+    viewModel:                  "androidx.lifecycle:lifecycle-viewmodel-ktx:${viewModelVersion}",
+    liveData:                   "androidx.lifecycle:lifecycle-livedata-ktx:${liveDataVersion}",
 
     // dagger
     dagger:                     "com.google.dagger:dagger:${daggerVersion}",
