@@ -2,6 +2,7 @@ plugins {
   id 'com.android.application'
   id 'kotlin-android'
   id 'kotlin-android-extensions'
+  id 'kotlin-kapt'
 }
 
 android {
@@ -45,6 +46,12 @@ dependencies {
   implementation developmentDependencies.viewModel
   implementation developmentDependencies.liveData
   implementation developmentDependencies.coreKtx
+
+  // Hilt
+  implementation developmentDependencies.hilt
+  implementation developmentDependencies.hiltViewModel
+  kapt developmentDependencies.hiltAndroidCompiler
+  kapt developmentDependencies.hiltCompiler
 
   testImplementation testDependencies.junit
   androidTestImplementation testDependencies.androidJunit
