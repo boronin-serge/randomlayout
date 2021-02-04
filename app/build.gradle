@@ -47,6 +47,10 @@ dependencies {
   implementation developmentDependencies.liveData
   implementation developmentDependencies.coreKtx
 
+  // Jetpack Navigation
+  implementation developmentDependencies.jetpackNavFragment
+  implementation developmentDependencies.jetpackNavUi
+
   // Hilt
   implementation developmentDependencies.hilt
   implementation developmentDependencies.hiltViewModel
