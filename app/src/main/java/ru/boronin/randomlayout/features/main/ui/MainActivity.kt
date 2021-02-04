@@ -1,7 +1,7 @@
 package ru.boronin.randomlayout
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import ru.boronin.randomlayout.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
